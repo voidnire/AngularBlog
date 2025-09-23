@@ -18,10 +18,6 @@ export const routes: Routes = [
                 component: Home
             },
             {
-                path: 'post',
-                component: Post
-            },
-            {
                 path: 'post/:id', // Se quiser posts com ID
                 component: Post
             }

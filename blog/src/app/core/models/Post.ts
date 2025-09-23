@@ -1,11 +1,9 @@
-export class PostModel{
-    id!: number;
-    title!: string
-    content!: string;
-
-    constructor(id: number, title: string, content: string){
-        this.id = id;
-        this.title = title;
-        this.content = content;
-    }
+export class PostModel {
+  constructor(
+    public id: number,
+    public title: string,
+    public subtitle: string | null,
+    public author: string,
+    public date: string,
+  ) {}
 }

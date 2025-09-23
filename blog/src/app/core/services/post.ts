@@ -7,13 +7,13 @@ import { PostModel } from '../models/Post';
 })
 
 export class PostService {
-   getPosts(): Observable<PostModel[]> {
-    // Exemplo com dados mockados
+   /*getPosts(): Observable<PostModel[]> {
+     Exemplo com dados mockados
     const posts: PostModel[] = [
       new PostModel(1, "First Post", "Content 1"),
       new PostModel(2, "Second Post", "Content 2")
     ];
     return of(posts);
-  }
+  }*/
 
 }

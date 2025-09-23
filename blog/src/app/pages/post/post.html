@@ -2,6 +2,7 @@
 
 
     <!-- Page Header -->
+@if (postObj) {
     <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
         <div class="container position-relative px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -87,6 +88,11 @@
             </div>
         </div>
     </article>
+
+}@else {
+      <p class="text-center mt-5">Post não encontrado</p>
+
+}
 
 
     <!-- Bootstrap & jQuery JS -->
